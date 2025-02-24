@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Flowdoro" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+      <item name="colorPrimary">@color/beige</item>
+      <item name="colorPrimaryVariant">@color/beige</item>
+      <item name="colorOnPrimary">@color/beige</item>
+      <item name="android:statusBarColor">@color/black</item>
+
+    </style>
+
+    <style name="Theme.Flowdoro" parent="Base.Theme.Flowdoro" />
+
+    <style name="Theme.App.Flowdoro" parent="Theme.SplashScreen">
+
+        <item name="windowSplashScreenBackground">@color/beige</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logoflowdoro</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.Flowdoro</item>
+
+
+    </style>
+
+
+</resources>
